@@ -195,7 +195,7 @@ public class LoanManagementServiceImpl implements LoanManagementService {
 			int high = 100;
 			cId = r.nextInt(high-low) + low;
 		}
-		Double emi=(Double)application.getLoanAmount()/12.0*application.getTenure();
+		Double emi=(Double)application.getLoanAmount()/(12.0*application.getTenure());
 		customerLoan.setCustomerId(application.getCustomerId());
 		customerLoan.setLoanPrincipal(application.getLoanAmount());
 		customerLoan.setTenure(application.getTenure());
