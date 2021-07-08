@@ -8,7 +8,7 @@
 - Open port localhost:9090/portal/login
 -  Login as user  
 - Enter the username:user and password:user
--  Create a loan by entering the required details.
+-  Create a loan by entering the required details (tenure in years).
 -  Check the status in applied loan.
 -  Logout from the customer page.
 - Now login as Admin with the credentials ( username: admin and password: admin)
